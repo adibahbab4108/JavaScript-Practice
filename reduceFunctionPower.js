@@ -37,6 +37,7 @@ const groupedNames = names.reduce((acc, cur) => {
 }, {});
 // console.log(groupedNames);
 
+//
 Object.keys(groupedNames).forEach(groupKey => {
     console.log('_____', groupKey, '_____');
     groupedNames[groupKey].forEach(name => console.log(name));
